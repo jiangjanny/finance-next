@@ -6,6 +6,7 @@ import { useAuth } from '~/context/AuthContext';
 const SomePage = () => {
     const { authToken, login, logout } = useAuth();
 
+
     return (
         <div>
             {authToken ? (
