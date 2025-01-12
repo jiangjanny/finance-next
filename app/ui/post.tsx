@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { getPosts } from '../lib/posts'
+import { getPosts } from '../../lib/posts'
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 export async function Post({ key, post }) {
     const posts = await getPosts()

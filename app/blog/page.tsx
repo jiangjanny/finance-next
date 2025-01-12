@@ -1,4 +1,4 @@
-import { getPosts } from '../lib/posts'
+import { getPosts } from '../../lib/posts'
 import { Post } from '../ui/post'
 
 export default async function Page() {
